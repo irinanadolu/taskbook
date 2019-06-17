@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
  "http://docs.oasis-open.org/dita/v1.1/OS/dtd/bookmap.dtd">
 <!-- (c) Copyright IBM Corp. 2004, 2007 All Rights Reserved. -->
@@ -53,6 +53,11 @@
           </topicmeta>
             <topicref href="topics/trademarks.dita"/>
         </notices>
+        <topicref href="tasks/installstorage.dita">
+            <topicref href="tasks/unscrewcover.dita"/>
+            <topicref href="tasks/insertdrive.dita"/>
+            <topicref href="tasks/replacecover.dita"/>
+        </topicref>
         <preface href="topics/task_preface.dita">
           <topicmeta>
             <data name="wh-tile">
@@ -62,11 +67,7 @@
         </preface>
     </frontmatter>
     <chapter href="topics/installing.dita">
-        <topicref href="tasks/installstorage.dita">
-            <topicref href="tasks/unscrewcover.dita"/>
-            <topicref href="tasks/insertdrive.dita"/>
-            <topicref href="tasks/replacecover.dita"/>
-        </topicref>
+        
         <topicref href="tasks/installwebserver.dita">
             <topicref href="tasks/closeprograms.dita"/>
             <topicref href="tasks/runsetup.dita"/>
@@ -84,20 +85,9 @@
         <topicref href="tasks/maintainserver.dita"/>
         <topicref href="tasks/maintaindatabase.dita"/>
     </chapter>
-    <chapter href="tasks/troubleshooting.dita">
-        <topicref href="tasks/drivetrouble.dita"/>
-        <topicref href="tasks/webtrouble.dita"/>
-        <topicref href="tasks/databasetrouble.dita"/>
-    </chapter>
     <appendix href="topics/task_appendix.dita"/>
     <backmatter>
         <booklists>
-            <!--
-        <topicref href="taskbook/otherbooks.dita" navtitle="Related Books"/>
-        <topicref href="taskbook/trademarks.dita" navtitle="Trademarks"/>
-        <topicref href="taskbook/Glossary.dita navtitle="Glossary"/>
-      -->
-            <indexlist/>
         </booklists>
     </backmatter>
 </bookmap>
