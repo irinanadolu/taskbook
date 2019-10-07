@@ -7,8 +7,8 @@
  "topic.dtd">
 <topic id="task_appendix1" xml:lang="en-us">
 <title>Sample Appendix</title>
-<shortdesc>This appendix describes things that you rarely need
-to know.</shortdesc>
+<shortdesc><?oxy_comment_start author="irinanadolu" timestamp="20191007T091446+0300" comment="com"?>This<?oxy_comment_end?>
+        appendix describes things that you rarely need to know.</shortdesc>
 <body>
 <p>You can consult this section when you need detailed information
 about a specific component.</p>
